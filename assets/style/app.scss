@@ -1,0 +1,22 @@
+@import "reset",
+        "variables",
+        "type";
+
+@import "components/slick-carousel",
+        "components/search",
+        "components/videos";
+
+p {
+  color: $gray-darker;
+}
+
+a {
+  color: $gray-darker;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: $black;
+}
